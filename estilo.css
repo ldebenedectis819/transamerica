@@ -1,0 +1,132 @@
+.flex-container {
+    display: flex;
+}
+
+.flex-container div {
+    border-radius: 20px;
+    box-shadow: 0 0 1rem 0 rgba(24, 7, 7, 0.924);
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(5px);
+    width: 310px;
+    height: 320px;
+    align-items: center;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 60px;
+}
+
+@media(max-width:600px) {
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .flex-container div {
+        margin: 5px;
+        width: 350px;
+        height: 320px;
+        align-items: center;
+        text-align: center;
+        margin-left: 10px;
+        margin-top: 80px;
+        border-radius: 20px;
+        box-shadow: 0 0 1rem 0 rgba(24, 7, 7, 0.924);
+        border-radius: 5px;
+        background-color: rgba(255, 255, 255, 0.15);
+        backdrop-filter: blur(5px);
+    }
+    .info button {
+        display: none;
+    }
+    .wpp {
+        text-align: center;
+        border-top: 100px;
+        background-color: rgb(0, 255, 13);
+        width: 20%;
+        margin-left: 70px;
+        margin-top: 20px;
+        height: 30px;
+        padding-top: 5px;
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+body {
+    background-color: rgba(255, 255, 255, 0.719);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    background-image: url(https://beavertrucks.com/wordpress2017/wp-content/uploads/2017/02/vnl-specs-hero-4k.jpg);
+    background-size: cover;
+}
+
+h1 {
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+    border-bottom: 50px;
+    border: 0px;
+    height: 20px;
+}
+
+h2 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+button {
+    background-color: rgb(14, 13, 13);
+    color: white;
+    height: 50px;
+    width: 150px;
+    font-weight: 400;
+    border-radius: 5px;
+}
+
+button:hover {
+    border: black;
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+
+.info button {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 10px;
+    width: 120px;
+    margin-top: 10px;
+}
+
+.wpp {
+    text-align: center;
+    border-top: 100px;
+    width: 30%;
+    margin-left: 20px;
+    margin-top: 20px;
+    height: 30px;
+    padding-top: 5px;
+    display: flex;
+    padding-bottom: 5px;
+    border-radius: 20px;
+    box-shadow: 0 0 1rem 0 rgba(24, 7, 7, 0.924);
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(5px);
+    font-weight: 700;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.wpp:hover {
+    border: black;
+    color: black;
+    background-color: rgb(47, 124, 40);
+    cursor: pointer;
+}
